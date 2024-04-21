@@ -64,11 +64,11 @@ docker-compose и созданию микросервисов.
 ### Создание и запуск контейнера
 
 #### 1) Через Docker
-docker build -t streamlit-translator .
+docker build -t streamlit-translator . \
 docker run -dp 127.0.0.1:8501:8501 --name=streamlit-translator streamlit-translator
 
 #### 2) С помощью docker-compose
-docker-compose build
+docker-compose build \
 docker-compose up
 
 </details>
