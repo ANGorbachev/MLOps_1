@@ -1,5 +1,4 @@
-transformers
 streamlit
-tensorflow
-sentencepiece
-sacremoses
+scikit-learn
+pandas
+numpy
